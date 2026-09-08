@@ -16,14 +16,22 @@ al DOM.
 
 ## Instalación
 
-### Como paquete (bundlers: Vite, Webpack, Rollup)
+El paquete no está publicado en npm. Úsalo localmente de una de estas formas.
+
+### Instalar desde una carpeta local
 
 ```sh
-npm install vanilla-t
+npm install ../vanilla-t
 ```
 
 ```js
 import { VanillaT } from 'vanilla-t';
+```
+
+### Instalar desde un repositorio Git
+
+```sh
+npm install https://github.com/tu-usuario/vanilla-t.git
 ```
 
 ### Como módulos ES nativos en el navegador
@@ -36,6 +44,8 @@ import { VanillaT } from './src/index.js';
 
 Los módulos ES requieren un servidor (no funcionan con `file://`). Si sirves tu
 proyecto por HTTP, esto funciona tal cual, sin paso de build.
+
+> Cuando publiques el paquete en npm, `npm install vanilla-t` funcionará con normalidad.
 
 ## Inicio rápido
 

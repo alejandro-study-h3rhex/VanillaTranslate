@@ -15,17 +15,25 @@ in the browser and applied declaratively to the DOM.
 
 ## Installation
 
-### As a package (bundlers: Vite, Webpack, Rollup)
+The package is not published to npm. Use it locally in one of these ways.
+
+### Install from a local folder
 
 ```sh
-npm install vanilla-t
+npm install ../vanilla-t
 ```
 
 ```js
 import { VanillaT } from 'vanilla-t';
 ```
 
-### As native ES modules in the browser
+### Install from a Git repository
+
+```sh
+npm install https://github.com/your-user/vanilla-t.git
+```
+
+### Native ES modules in the browser
 
 Copy the `src/` folder into your project and import the entry point directly:
 
@@ -35,6 +43,8 @@ import { VanillaT } from './src/index.js';
 
 ES modules require a server (they don't work over `file://`). If you serve your
 project over HTTP this works as-is with no build step.
+
+> Once you publish the package to npm, `npm install vanilla-t` works as usual.
 
 ## Quick start
 
