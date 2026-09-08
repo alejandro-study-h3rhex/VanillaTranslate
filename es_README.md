@@ -39,7 +39,7 @@ npm install https://github.com/tu-usuario/vanilla-t.git
 Copia la carpeta `src/` en tu proyecto e importa el punto de entrada directamente:
 
 ```js
-import { VanillaT } from './src/index.js';
+import { VanillaT } from './src/main.js';
 ```
 
 Los módulos ES requieren un servidor (no funcionan con `file://`). Si sirves tu
