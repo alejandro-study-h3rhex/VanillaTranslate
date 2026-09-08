@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-t",
+  "version": "0.1.0",
+  "description": "Lightweight, dependency-free translation library for vanilla JavaScript projects.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "translate",
+    "translations",
+    "vanilla",
+    "zero-dependency",
+    "localization"
+  ],
+  "license": "MIT"
+}
